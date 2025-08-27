@@ -113,10 +113,19 @@ header{
     display: flex;
     gap: 20px;
 }
+.sec-centeen-last-row img,
 .sec-canteen-main img{
     height: 300px;
     border-radius: 30px;
     border: 1px solid blue;
+}
+.sec-centeen-last-row {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-centeen-last-row img{
+    width: 32%;
 }
 table, th, td {
     padding: 10px 15px;
@@ -300,6 +309,9 @@ footer{
     .nav{
         padding: 5px 60px;
     }
+    .nav p{
+        font-size: 12px;
+    }
     /* ================= HEADER =================== */
     header{
         height: 340px;
@@ -335,9 +347,11 @@ footer{
     table, th, td {
         padding: 5px 10px;
     }
+    .sec-centeen-last-row,
     .sec-canteen-main img{
         display: none;
     }
+        
     /* ================ SPORTS ================= */
     .sec-sports h2 ~ p{
         padding: 0px;
@@ -515,6 +529,7 @@ footer{
         margin-top: 0px;
         display: block;
     }
+    .sec-centeen-last-row,
     .sec-canteen-main img{
         display: none;
     }
