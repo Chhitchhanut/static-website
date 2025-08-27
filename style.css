@@ -201,6 +201,14 @@ td {
     border: 1px solid rgb(99, 99, 219);
     box-shadow: rgba(99, 99, 219, 0.363) -4px 9px 25px -6px;
 }
+.sec-aerobic-last-row{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-aerobic-last-row .sec-aerobic-card{
+    width: 32%;
+}
 span{
     font-weight: normal;
     font-size: 18px;
@@ -393,6 +401,9 @@ footer{
     .sec-aerobic-card p{
         font-size: 20px;
     }
+    .sec-aerobic-last-row{
+        display: none;
+    }
     /* ================ CONTACT ================= */
     .sec-contact-main{
         display: block;
@@ -421,59 +432,59 @@ footer{
 
 
 @media (min-width: 320px) and (max-width: 600px) {
-*{
-    font-size: 12px;
-}
-/* ============= GROUP STYLE ============== */
-.h2{
-    font-size: 1.4em;
-    margin-bottom: 20px;
-}
-.h4{
-    margin-bottom: 20px;
-}
-.sub-text{
-    text-align: center;
-    padding: 0px 160px;
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
-.sec-value,
-.sec-canteen,
-.sec-sports,
-.sec-aerobic,
-.sec-contact{
-    padding: 40px 20px;
-}
-/* ===================== NAV ===================== */
-.nav{
-    padding: 5px 20px;
+    *{
+        font-size: 12px;
+    }
+    /* ============= GROUP STYLE ============== */
+    .h2{
+        font-size: 1.4em;
+        margin-bottom: 20px;
+    }
+    .h4{
+        margin-bottom: 20px;
+    }
+    .sub-text{
+        text-align: center;
+        padding: 0px 160px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .sec-value,
+    .sec-canteen,
+    .sec-sports,
+    .sec-aerobic,
+    .sec-contact{
+        padding: 40px 20px;
+    }
+    /* ===================== NAV ===================== */
+    .nav{
+        padding: 5px 20px;
 
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    column-gap: 10px;
-}
-.nav img{
-    height: 30px;
-    margin-right: 20px;
-    grid-row: 1/2;
-    grid-row: 1/5;
-}
-.nav p{
-    text-align: center;
-    padding: 0;
-    font-size: 8px;
-    text-decoration: underline;
-    box-shadow: none;
-    background-color: rgb(241, 241, 241);
-}
-.nav p:hover{
-    padding: 5px;
-    color: #fb8500;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-}
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        column-gap: 10px;
+    }
+    .nav img{
+        height: 30px;
+        margin-right: 20px;
+        grid-row: 1/2;
+        grid-row: 1/5;
+    }
+    .nav p{
+        text-align: center;
+        padding: 0;
+        font-size: 8px;
+        text-decoration: underline;
+        box-shadow: none;
+        background-color: rgb(241, 241, 241);
+    }
+    .nav p:hover{
+        padding: 5px;
+        color: #fb8500;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
     /* ================= HEADER =================== */
     header{
         height: 200px;
@@ -589,6 +600,9 @@ footer{
     .sec-aerobic-card p{
         font-size: 14px;
         padding: 8px;
+    }
+    .sec-aerobic-last-row{
+        display: none;
     }
     /* ================ CONTACT ================= */
     .sec-contact-main{
